@@ -13,5 +13,10 @@ namespace MvcMovie.Controllers
         {
             return "This is my <b> default</b> action...";
         }
+
+        public string Welcome()
+        {
+            return "This is the Welcome action method...";
+        }
     }
 }

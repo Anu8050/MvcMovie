@@ -16,7 +16,7 @@ namespace MvcMovie.Controllers
 
         public string Welcome(string name, int id = 1)
         {
-            return HttpUtility.HtmlEncode("Hello "+ name + ", NumTime is: " + id);
+            return HttpUtility.HtmlEncode("Hello "+ name + ", Id is: " + id);
         }
     }
 }
